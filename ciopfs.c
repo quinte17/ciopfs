@@ -927,7 +927,7 @@ struct fuse_operations ciopfs_operations = {
 	.getxattr	= ciopfs_getxattr,
 	.listxattr	= ciopfs_listxattr,
 	.removexattr	= ciopfs_removexattr,
-	.lock		= ciopfs_lock,
+//	.lock		= ciopfs_lock,
 	.init		= ciopfs_init
 };
 
